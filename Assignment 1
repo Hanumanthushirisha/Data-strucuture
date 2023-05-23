@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    int age,i=0,j=0,k=0,count=0;
+    while(count<20)
+    {
+        scanf("%d",&age);
+        if(age<3)
+        {
+            i++;
+        }
+        else if(age>=3&&age<=17)
+        {
+            j++;
+        }
+        else
+        {
+            k++;
+        }
+        count++;
+    }
+    printf("Baby age: %d\n",i);
+    printf("School age: %d\n",j);
+    printf("Adult age: %d\n",k);
+}
